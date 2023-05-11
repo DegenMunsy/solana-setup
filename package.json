@@ -1,0 +1,15 @@
+{
+  "name": "solana-setup",
+  "version": "1.0.0",
+  "description": "tool to update or install all the regularly used programs by solana devs",
+  "main": "index.js",
+  "bin": {
+    "solana-setup": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
