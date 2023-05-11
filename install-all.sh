@@ -20,3 +20,9 @@ corepack enable
 npm i -g corepack
 corepack prepare yarn@stable --activate
 corepack prepare yarn@3.5.1 --activate
+
+# Add the TypeScript install command
+npm install -g typescript
+
+# npm install -g typescript@latest
+# npm install -g typescript

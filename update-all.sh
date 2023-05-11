@@ -12,3 +12,6 @@ avm use latest
 
 # Update Yarn
 yarn set version stable
+
+# Add the TypeScript update command
+npm install -g typescript@latest
