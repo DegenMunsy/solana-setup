@@ -32,7 +32,8 @@ const installCommands = {
     'anchor': 'cargo install --git https://github.com/coral-xyz/anchor avm --locked --force',
     'anchor-dependencies': 'sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y pkg-config build-essential libudev-dev libssl-dev',
     'yarn': 'corepack enable && npm i -g corepack && corepack prepare yarn@stable --activate && corepack prepare yarn@3.5.1 --activate',
-    'typescript': 'npm install -g typescript'
+    'typescript': 'npm install -g typescript',
+    'metaplex': 'bash <(curl -sSf https://sugar.metaplex.com/install.sh)'
 };
 
 const args = process.argv.slice(2);

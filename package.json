@@ -1,6 +1,6 @@
 {
   "name": "solana-setup",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "tool to update or install all the regularly used programs by solana devs",
   "main": "index.js",
   "bin": "./index.js",

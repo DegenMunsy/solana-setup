@@ -24,5 +24,8 @@ corepack prepare yarn@3.5.1 --activate
 # Add the TypeScript install command
 npm install -g typescript
 
+# Add the Metaplex install commane
+bash <(curl -sSf https://sugar.metaplex.com/install.sh)
+
 # npm install -g typescript@latest
 # npm install -g typescript
