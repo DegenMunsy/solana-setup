@@ -24,8 +24,17 @@ corepack prepare yarn@3.5.1 --activate
 # Add the TypeScript install command
 npm install -g typescript
 
-# Add the Metaplex install commane
+# Add the Metaplex install command
 bash <(curl -sSf https://sugar.metaplex.com/install.sh)
+
+# Add the Create JS project command
+npm i -g create-js-project
+
+# Add the Create React App command
+
 
 # npm install -g typescript@latest
 # npm install -g typescript
+
+# npm publish --access public
+# npm update -g solana-setup

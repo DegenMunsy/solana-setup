@@ -1,7 +1,7 @@
 {
   "name": "solana-setup",
-  "version": "1.0.3",
-  "description": "tool to update or install all the regularly used programs by solana devs",
+  "version": "1.0.8",
+  "description": "Solana Setup is a command-line tool designed to make it easier for Solana developers to install and update their development environment.",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
@@ -10,5 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.11.1",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/web3.js": "^1.76.0",
+    "inquirer": "^9.2.2",
+    "shelljs": "^0.8.5"
+  }
 }
