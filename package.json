@@ -1,6 +1,6 @@
 {
   "name": "solana-setup",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Solana Setup is a command-line tool designed to make it easier for Solana developers to install and update their development environment.",
   "main": "menu.js",
   "bin": "./menu.js",
