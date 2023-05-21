@@ -30,6 +30,7 @@ async function install() {
     yarn: "corepack enable && npm i -g corepack && corepack prepare yarn@stable --activate && corepack prepare yarn@3.5.1 --activate",
     typescript: "npm install -g typescript",
     metaplex: "bash <(curl -sSf https://sugar.metaplex.com/install.sh)",
+    metaboss: "bash <(curl -sSf https://raw.githubusercontent.com/samuelvanderwaal/metaboss/main/scripts/install.sh)",
   };
 
   inquirer.default
