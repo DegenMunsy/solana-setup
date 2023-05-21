@@ -26,7 +26,7 @@
   "install",
   "update",
   "create",
-  "sugar"],
+  "metaboss"],
   "author": "",
   "license": "ISC",
   "packageManager": "yarn@3.5.1",
