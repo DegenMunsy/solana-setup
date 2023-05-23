@@ -25,11 +25,6 @@ const npmPackages = [
 // Define questions
 const questions = [
   {
-    type: "input",
-    name: "projectTitle",
-    message: "Enter your project title:",
-  },
-  {
     type: "list",
     name: "projectType",
     message: "What type of project would you like to create?",
@@ -45,6 +40,11 @@ const questions = [
     name: "packages",
     message: "Which npm packages would you like to install?",
     choices: npmPackages,
+  },
+    {
+    type: "input",
+    name: "projectTitle",
+    message: "Enter your project title:",
   },
 ];
 
