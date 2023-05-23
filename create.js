@@ -24,26 +24,26 @@ const npmPackages = [
 // Define questions
 const questions = [
   {
-    type: "input",
-    name: "projectTitle",
-    message: "Enter your project title:",
-  },
-  {
     type: "list",
     name: "projectType",
     message: "What type of project would you like to create?",
     choices: Object.keys(projectTypes),
-  },
-  {
-    type: "input",
-    name: "createFiles",
-    message: "Enter file names you want to create separated by comma:",
-  },
+  },  
   {
     type: "checkbox",
     name: "packages",
     message: "Which npm packages would you like to install?",
     choices: npmPackages,
+  },
+  {
+    type: "input",
+    name: "projectTitle",
+    message: "Enter your project title:",
+  },
+  {
+    type: "input",
+    name: "createFiles",
+    message: "Enter file names you want to create separated by comma:",
   },
 ];
 
