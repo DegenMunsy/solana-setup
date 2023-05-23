@@ -21,16 +21,16 @@ async function install() {
   }
 
   const installCommands = {
-    solana: 'sh -c "$(curl -sSfL https://release.solana.com/v1.15.2/install)"',
-    rust: "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
-    anchor:
+    Solana_CLI: 'sh -c "$(curl -sSfL https://release.solana.com/v1.15.2/install)"',
+    Rust: "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+    Anchor:
       "cargo install --git https://github.com/coral-xyz/anchor avm --locked --force",
     "anchor-dependencies":
       "sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y pkg-config build-essential libudev-dev libssl-dev",
-    yarn: "corepack enable && npm i -g corepack && corepack prepare yarn@stable --activate && corepack prepare yarn@3.5.1 --activate",
-    typescript: "npm install -g typescript",
-    metaplex: "bash <(curl -sSf https://sugar.metaplex.com/install.sh)",
-    metaboss: "bash <(curl -sSf https://raw.githubusercontent.com/samuelvanderwaal/metaboss/main/scripts/install.sh)",
+    Yarn: "corepack enable && npm i -g corepack && corepack prepare yarn@stable --activate && corepack prepare yarn@3.5.1 --activate",
+    Typescript: "npm install -g typescript",
+    Sugar_CLI: "bash <(curl -sSf https://sugar.metaplex.com/install.sh)",
+    Metaboss: "bash <(curl -sSf https://raw.githubusercontent.com/samuelvanderwaal/metaboss/main/scripts/install.sh)",
   };
 
   inquirer.default
