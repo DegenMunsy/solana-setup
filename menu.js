@@ -9,7 +9,7 @@ import("inquirer").then((inquirer) => {
     {
       type: "list",
       name: "program",
-      message: "Which program do you want to run?",
+      message: "Which command do you want to run?",
       choices: ["Install", "Update", "Create"],
     },
   ])
