@@ -21,11 +21,12 @@ async function update() {
   }
 
   const updateCommands = {
-    solana: "solana-install update",
-    rust: "rustup update",
-    anchor: "avm install latest && avm use latest",
-    yarn: "yarn set version stable",
-    typescript: "npm install -g typescript@latest",
+    Solana_CLI: "solana-install update",
+    Rust: "rustup update",
+    Anchor: "avm install latest && avm use latest",
+    Yarn: "yarn set version stable",
+    Typescript: "npm install -g typescript@latest",
+    Metaboss : "bash <(curl -sSf https://sugar.metaplex.com/install.sh)"
   };
 
   inquirer.default
@@ -50,3 +51,4 @@ async function update() {
 }
 
 module.exports = { update };
+
