@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 const { exec } = require("child_process");
 
+
+
 async function install() {
   const inquirer = await import("inquirer");
+
   
   function runCommand(command, callback) {
     const process = exec(command);
@@ -39,7 +42,7 @@ async function install() {
         type: "checkbox",
         name: "programs",
         message: `Which programs do you want to install?`,
-        choices: Object.keys(installCommands),
+        choices: Object.keys(installCommands), /* [...Object.keys(installCommands), "quit"] */
       },
     ])
     .then((programAnswers) => {
