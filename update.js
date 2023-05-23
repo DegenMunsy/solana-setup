@@ -26,6 +26,10 @@ async function update() {
     Anchor: "avm install latest && avm use latest",
     Yarn: "yarn set version stable",
     Typescript: "npm install -g typescript@latest",
+<<<<<<< HEAD
+=======
+    /* Metaboss : "bash <(curl -sSf https://sugar.metaplex.com/install.sh)"*/
+>>>>>>> c2389b31240a625e40978ef723474af498a4a10f
   };
 
 
@@ -51,3 +55,4 @@ async function update() {
 }
 
 module.exports = { update };
+
