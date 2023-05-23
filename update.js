@@ -26,7 +26,7 @@ async function update() {
     Anchor: "avm install latest && avm use latest",
     Yarn: "yarn set version stable",
     Typescript: "npm install -g typescript@latest",
-    Metaboss : "bash <(curl -sSf https://sugar.metaplex.com/install.sh)"
+    /* Metaboss : "bash <(curl -sSf https://sugar.metaplex.com/install.sh)"*/
   };
 
   inquirer.default
