@@ -19,7 +19,7 @@ const npmPackages = [
   "@solana/spl-token",
   "@metaplex-foundation/mpl-token-metadata",
   // "@solana/wallet-adapter",
-  //"@metaboss
+  
 ];
 
 // Define questions
