@@ -21,7 +21,7 @@ async function install() {
   }
 
   const installCommands = {
-    solana: 'sh -c "$(curl -sSfL https://release.solana.com/v1.15.2/install)"',
+    solana: 'sh -c "$(curl -sSfL https://release.solana.com/v1.16.6/install)"',
     rust: "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
     anchor:
       "cargo install --git https://github.com/coral-xyz/anchor avm --locked --force",
